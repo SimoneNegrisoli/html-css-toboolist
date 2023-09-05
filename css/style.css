@@ -58,3 +58,42 @@ h1{
 .add{
     border-bottom: 1px solid lightgrey;
 }
+
+
+/* 
+U+02713 spunta v
+
+U+02717 spunta x
+*/
+
+#triangle{
+    font-size: 10px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.highlighted-blue{
+    background-color: #48ADF1;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
+
+.highlighted-purple
+
+.highlighted-green1
+
+.highlighted-purple
+
+.highlighted-orange
+
+.highlighted-pink
+
+.highlighted-green2
