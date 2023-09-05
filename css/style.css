@@ -61,9 +61,9 @@ h1{
 
 
 /* 
-U+02713 spunta v
+&check; spunta v
 
-U+02717 spunta x
+&cross spunta x
 */
 
 #triangle{
@@ -85,6 +85,21 @@ ul{
     font-size: 0.75em;
     color: white;
 }
+
+.check-green{
+    color: #6AC3AD;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #6AC3AD;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+
+
 
 .highlighted-purple
 
