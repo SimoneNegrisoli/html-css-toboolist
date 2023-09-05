@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header, main{
     background-color: white;
@@ -81,6 +82,10 @@ ul{
     list-style: none;
 }
 
+ul li{
+    margin-bottom: 20px;
+}
+
 .highlighted-blue{
     background-color: #48ADF1;
     border-radius: 15px 15px 15px 15px;
@@ -97,7 +102,20 @@ ul{
     border: 2px solid #6AC3AD;
     border-radius: 50%;
     margin-right: 10px;
-    padding: 5px 10px;
+    padding: 1px 3px;
+    text-align: center;
+    line-height: 5px;
+}
+
+.cross-red{
+    font-size: 15px;
+    color: #E94D45;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #E94D45;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 1px 3px;
     text-align: center;
     line-height: 5px;
 }
@@ -105,14 +123,43 @@ ul{
 .text-note{
     font-size: 20px;
 }
-.highlighted-purple
+.highlighted-purple{
+    background-color:#9C72E4;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
 
-.highlighted-green1
+.highlighted-green1{
+    background-color:#63C0A9;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
 
-.highlighted-purple
 
-.highlighted-orange
+.highlighted-orange{
+    background-color:#F29E33;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
 
-.highlighted-pink
+.highlighted-pink{
+    background-color:#D763A1;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
 
-.highlighted-green2
+.highlighted-green2{
+    background-color: #B0C925;
+    border-radius: 15px 15px 15px 15px;
+    padding:5px;
+    font-size: 0.75em;
+    color: white;
+}
