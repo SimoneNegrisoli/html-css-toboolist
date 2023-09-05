@@ -7,9 +7,14 @@
 .header, main{
     background-color: white;
 }
+main{
+    width: 60%;
+    margin: auto;
+}
 
 .container{
-    background-color: grey;
+    background-color: #F5F8F9;
+    width: 100%;
 }
 
 h1{
@@ -27,6 +32,7 @@ h1{
 
 .blue-bg{
     background-color: #48ADF1;
+    border: 1px solid #48ADF1;
 }
 
 .text-white{
@@ -35,4 +41,20 @@ h1{
 
 .text-grey{
     color: gray;
+    border: 1px solid grey;
+
+}
+
+/* end colors */
+
+.radius-top{
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.add{
+    border-bottom: 1px solid lightgrey;
 }
