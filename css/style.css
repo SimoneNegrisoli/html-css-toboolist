@@ -54,7 +54,7 @@ h1{
 
 /* end colors */
 
-.radius-top{
+.button-top{
     border-radius: 5px;
     font-size: 12px;
     padding: 10px;
@@ -90,12 +90,37 @@ ul li{
     margin-bottom: 20px;
 }
 
-.highlighted-blue{
-    background-color: #48ADF1;
+
+.highlighted{
     border-radius: 15px 15px 15px 15px;
     padding:5px;
     font-size: 0.75em;
     color: white;
+}
+
+.blue{
+    background-color: #48ADF1;
+}
+
+.purple{
+    background-color:#9C72E4;
+}
+
+.green1{
+    background-color:#63C0A9;
+}
+
+
+.orange{
+    background-color:#F29E33;
+}
+
+.pink{
+    background-color:#D763A1;
+}
+
+.green2{
+    background-color: #B0C925;
 }
 
 .check-green{
@@ -126,44 +151,4 @@ ul li{
 
 .text-note{
     font-size: 20px;
-}
-.highlighted-purple{
-    background-color:#9C72E4;
-    border-radius: 15px 15px 15px 15px;
-    padding:5px;
-    font-size: 0.75em;
-    color: white;
-}
-
-.highlighted-green1{
-    background-color:#63C0A9;
-    border-radius: 15px 15px 15px 15px;
-    padding:5px;
-    font-size: 0.75em;
-    color: white;
-}
-
-
-.highlighted-orange{
-    background-color:#F29E33;
-    border-radius: 15px 15px 15px 15px;
-    padding:5px;
-    font-size: 0.75em;
-    color: white;
-}
-
-.highlighted-pink{
-    background-color:#D763A1;
-    border-radius: 15px 15px 15px 15px;
-    padding:5px;
-    font-size: 0.75em;
-    color: white;
-}
-
-.highlighted-green2{
-    background-color: #B0C925;
-    border-radius: 15px 15px 15px 15px;
-    padding:5px;
-    font-size: 0.75em;
-    color: white;
 }
