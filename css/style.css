@@ -4,15 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header, main{
+    background-color: white;
+}
 
-/* header{
-    background-color: red;
-    vertical-align: middle;
-} */
+.container{
+    background-color: grey;
+}
 
 h1{
     display: inline-block;
 }
 .logo{
     vertical-align: middle;
+}
+
+/* colors */
+
+.white-bg{
+    background-color: white;
+}
+
+.blue-bg{
+    background-color: #48ADF1;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-grey{
+    color: gray;
 }
